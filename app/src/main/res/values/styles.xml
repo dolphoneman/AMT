@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Title Style -->
+    <style name="Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFD700</item>
+        <item name="android:background">#000000</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!--Timer Base Style -->
+    <style name="TimerTheme">
+        <item name="android:textSize">96sp</item>
+        <item name="android:textColor">#7FFF00</item>
+        <item name="android:background">#000000</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <!--Small Title Style -->
+    <style name="SmallTitles">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFD700</item>
+        <item name="android:background">#000000</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+</resources>
