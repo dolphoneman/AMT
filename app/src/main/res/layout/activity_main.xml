@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="0" />
+            android:text="3" />
 
         <TextView
             android:id="@+id/colon"
@@ -80,7 +80,7 @@
 
     <LinearLayout
         android:id="@+id/activeTitles"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -91,25 +91,30 @@
             style="@style/SmallTitles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Activity" />
+            android:layout_weight="1"
+            android:paddingStart="30dp"
+            android:paddingLeft="30dp"
+            android:text="@string/work"/>
 
         <TextView
             style="@style/SmallTitles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Warning" />
+            android:layout_weight="1"
+            android:text="@string/warning"/>
 
         <TextView
             style="@style/SmallTitles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rest" />
+            android:layout_weight="1"
+            android:text="@string/rest"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/active"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -120,19 +125,22 @@
             style="@style/TimerTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/active" />
+            android:src="@drawable/active"
+            android:layout_weight="1"/>
 
         <ImageView
             style="@style/TimerTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/warning" />
+            android:src="@drawable/notwarning"
+            android:layout_weight="1"/>
 
         <ImageView
             style="@style/TimerTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/rest" />
+            android:src="@drawable/notrest"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 
@@ -142,7 +150,7 @@
         style="@style/SmallTitles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Round"
+        android:text="@string/round"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/active" />

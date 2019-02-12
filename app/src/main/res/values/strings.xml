@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">AMT</string>
 
-    <string name="title">American Muay Thai Practice Timer</string>
+    <string name="title">American Muay Thai Round Timer</string>
+
+    <string name="work">Work</string>
+    <string name="warning">Warning</string>
+    <string name="rest">Rest</string>
+    <string name="round">Round</string>
 
 
 </resources>
