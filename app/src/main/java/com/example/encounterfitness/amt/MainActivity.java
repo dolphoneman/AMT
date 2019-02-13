@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        minuteView = findViewById(R.id.mintue);
+        minuteView = findViewById(R.id.minute);
         firstSecondView = findViewById(R.id.firstSecond);
         secondSecondView = findViewById(R.id.secondSecond);
         roundView = findViewById(R.id.round);
