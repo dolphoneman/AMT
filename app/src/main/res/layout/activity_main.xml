@@ -47,7 +47,7 @@
 
 
         <TextView
-            android:id="@+id/mintue"
+            android:id="@+id/minute"
             style="@style/TimerTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
 
         <TextView
             style="@style/SmallTitles"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingStart="30dp"
@@ -100,16 +100,20 @@
 
         <TextView
             style="@style/SmallTitles"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
             android:text="@string/warning"/>
 
         <TextView
             style="@style/SmallTitles"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:paddingStart="40dp"
+            android:paddingLeft="40dp"
             android:text="@string/rest"/>
 
     </LinearLayout>
